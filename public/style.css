@@ -92,6 +92,7 @@ header {
 }
 header a {
   margin: var(--space);
+  text-decoration: none;
 }
 header .site-logo {
   font-size: calc(var(--font-size) * 1.5);
@@ -136,4 +137,20 @@ header .site-logo {
   header a {
     margin: calc(var(--space) / 2);
   }
+}
+
+.booksearch {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.searchform {
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.aboutapp {
+  text-align: left;
 }

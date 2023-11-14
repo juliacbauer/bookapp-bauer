@@ -1,8 +1,13 @@
 <header>
   <a class="site-logo" href="/">
-    Auth Example! 🕵️
+    Book Worm! 🕵️
   </a>
+
   {{#if isLoggedIn}}
+    <a href="/about">About</a>
+    <a href="/search">Book Search</a>
+    <a href="/faves">Your Faves</a>
+    <a href="/tbr">TBR List</a>
     <a href="/api/logout">Logout</a>
   {{else}}
     <a href="/login">Login</a>
