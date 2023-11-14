@@ -1,10 +1,10 @@
 :root {
-  --black: #020303;
+  --black: #3ca9a9;
   --dark-grey: #171c1c;
   --light-grey: #a7b9b7;
   --primary: #5cc1bb;
-  --primary-dark: #41aaa3;
-  --secondary: hsl(15deg 100% 62%);
+  --primary-dark: #fbfdd0;
+  --secondary: hsl(13, 49%, 41%);
   --secondary-light: hsl(15deg 100% 70%);
   --text-color: #f5fffe;
   --space: 16px;
@@ -18,7 +18,7 @@ body {
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  font-family: helvetica;
+  font-family: gibson;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -50,7 +50,7 @@ h3 {
 }
 
 a {
-  color: var(--secondary-light);
+  color: var(--text-color);
   transition: color 200ms;
 }
 a:hover,
